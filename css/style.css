@@ -325,14 +325,21 @@ footer h4 {
     font-size: 25px;
 }
 
-.contact{
-    height: 400px;
-    width: 500px;
-    box-shadow: #3fbbc0 0 0 17px;;
-    margin: 0 0 100px 500px;
+.contact {
+    height: 270px;
+    width: 1350px;
+    box-shadow: #3fbbc0 0 0 17px;
+    ;
+    margin: 0 0 100px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
-.link{
-    
+
+.link {
+    margin: 50px;
+}
+
+.link img {
+    width: 180px;
 }
