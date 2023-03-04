@@ -26,11 +26,12 @@ body {
 
 }
 
-.logo img{
+.logo img {
     width: 250px;
     margin: 30px;
 
 }
+
 .main ul {
     float: right;
     list-style: none;
@@ -132,6 +133,7 @@ body {
     border-radius: 50px;
     padding: 12px 30px;
     margin: 25px 550px;
+    cursor: pointer;
 }
 
 footer {
@@ -260,24 +262,25 @@ footer h4 {
     top: 60%;
     left: 10%;
     position: absolute;
-  }
-  .banner-content h2 {
+}
+
+.banner-content h2 {
     color: #2f2f2f;
     margin-bottom: 10px;
     font-size: 36px;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
-  }
+}
 
-  .banner-content p {
+.banner-content p {
     color: #555555;
     margin: 0 50px;
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
     line-height: 25px;
-  }
+}
 
-  .banner-content .btn-primary {
+.banner-content .btn-primary {
     margin-top: 15px;
     background: #3fbbc0;
     color: #fff;
@@ -289,16 +292,47 @@ footer h4 {
     display: inline-block;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-  }
-  .about-us{
+}
+
+.about-us {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .about-img img{
+.about-img img {
     margin: 50px;
     width: 40vw;
-  }
-  .about {
+}
+
+.about {
     margin: 50px 30px;
-  }
+}
+
+.fixed-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #3fbbc0;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+}
+
+.fixed-top i {
+    padding: 0 0 0 9px;
+    font-size: 25px;
+}
+
+.contact{
+    height: 400px;
+    width: 500px;
+    box-shadow: #3fbbc0 0 0 17px;;
+    margin: 0 0 100px 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    
+}
