@@ -1,0 +1,99 @@
+.header {
+    background-image: url("../img/banner-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    transform: translate(-30%, -30%);
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s easE;
+}
+
+ul li a:hover {
+    background-color: beige;
+    color: gold;
+}
+
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    transform: translate(-30%, -30%);
+
+}
+h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px #000000;
+}
+.about > p{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    transform: translate(-5%, -5%);
+    text-align: start;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-30%, -30%);
+
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    transition: 0.6s easE;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    background-color: beige;
+    color: gold;
+
+}
