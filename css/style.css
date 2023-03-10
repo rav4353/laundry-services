@@ -97,3 +97,42 @@ h2{
     color: gold;
 
 }
+
+.form {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form2 .box::placeholder {
+    padding-left: 10px;
+  }
+  
+  .form2 .box,
+  .dropdown1,
+  .dropdown2 {
+    height: 40px;
+    width: 400px;
+    margin: 12px;
+  }
+  
+  .about-header>.make {
+    background-color: #f7fcfc;
+    padding: 5px 0px;
+  }
+  
+  .form2 textarea {
+    width: 1280px;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  
+  .form2 button {
+    background-color: #3fbbc0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 12px 30px;
+    margin: 25px 550px;
+  }
