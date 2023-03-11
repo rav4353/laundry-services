@@ -32,13 +32,13 @@ h1 {
     text-shadow: 3px 3px 5px #000000;
 }
 
-ul {
+.main ul {
     float: right;
     list-style: none;
     margin-top: 50px;
 }
 
-ul li {
+.main ul li {
     display: inline-block;
 
 }
@@ -109,9 +109,11 @@ h2 {
 }
 
 .form {
-    margin: 50px 100px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
+    background-color: #f7fcfc;
+    width: 100vw;
 }
 
 .form2 .box::placeholder {
@@ -151,7 +153,7 @@ footer{
 }
 
 .footer-top {
-    height: 40vh;
+    height: 35vh;
     display: flex;
     justify-content: space-between;
     background-color: #f6f6f6;
@@ -179,6 +181,12 @@ footer{
     cursor: pointer;
     margin-right: 5px;
 }
+address h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555555;
+    font-family: "Poppins", sans-serif;
+  }
 address {
     font-size: 14px;
     line-height: 18px;
@@ -188,7 +196,6 @@ address {
   footer h4 {
     font-size: 18px;
     font-weight: 600;
-    line-height: 30px;
     color: #555555;
   }
   
@@ -201,7 +208,23 @@ address {
   .useful-links ul li a {
     text-decoration: none;
     color: #555555;
-    margin: 10px;
+    
+  }
+  
+  .our-services ul li {
+    list-style: inside;
+    line-height: 30px;
+    color: #3fbbc0;
+  }
+  
+  .our-services ul li a {
+    text-decoration: none;
+    color: #555555;
+  }
+  
+  .our-services {
+    width: 200px;
+    color: #555555;
   }
 .bottom {
     height: 15vh;
