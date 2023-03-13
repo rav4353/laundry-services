@@ -94,11 +94,11 @@ body {
 }
 
 .form {
-    padding: 100px;
+    padding: 64px;
     display: flex;
     justify-content: space-between;
     background-color: #f7fcfc;
-    width: 100vw;
+    width: 90vw;
 }
 
 .form2 .box::placeholder {
@@ -271,7 +271,7 @@ footer h4 {
 
   .banner-content p {
     color: #555555;
-    margin: 0 66px;
+    margin: 0 50px;
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
     line-height: 25px;
@@ -289,4 +289,16 @@ footer h4 {
     display: inline-block;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
+  }
+  .about-us{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-img img{
+    margin: 50px;
+    width: 40vw;
+  }
+  .about {
+    margin: 50px 30px;
   }
