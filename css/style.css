@@ -3,8 +3,9 @@
 
 
 body {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
 .header {
     background-image: url("../img/banner-1.jpg");
     height: 100vh;
@@ -108,6 +109,44 @@ h2 {
 
 }
 
+.tech {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px 100px 150px;
+}
+
+
+.techbox {
+    width: 240px;
+    height: 220px;
+    padding: 25px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: #ccc 0 0 17px;
+    text-align: left;
+}
+
+.techbox:hover {
+    background-color: #3fbbc0;
+    color: #fff;
+}
+
+.techbox h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    padding: 15px 15px;
+}
+
+.techbox p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+
 .form {
     padding: 100px;
     display: flex;
@@ -148,7 +187,8 @@ h2 {
     padding: 12px 30px;
     margin: 25px 550px;
 }
-footer{
+
+footer {
     font-family: "Poppins", sans-serif;
 }
 
@@ -181,51 +221,54 @@ footer{
     cursor: pointer;
     margin-right: 5px;
 }
+
 address h3 {
     font-size: 20px;
     font-weight: 600;
     color: #555555;
     font-family: "Poppins", sans-serif;
-  }
+}
+
 address {
     font-size: 14px;
     line-height: 18px;
     color: #555555;
-  }
+}
 
-  footer h4 {
+footer h4 {
     font-size: 18px;
     font-weight: 600;
     color: #555555;
-  }
-  
-  .useful-links ul li {
+}
+
+.useful-links ul li {
     list-style: inside;
     line-height: 30px;
     color: #3fbbc0;
-  }
-  
-  .useful-links ul li a {
+}
+
+.useful-links ul li a {
     text-decoration: none;
     color: #555555;
-    
-  }
-  
-  .our-services ul li {
+
+}
+
+.our-services ul li {
     list-style: inside;
     line-height: 30px;
     color: #3fbbc0;
-  }
-  
-  .our-services ul li a {
+}
+
+.our-services ul li a {
     text-decoration: none;
     color: #555555;
-  }
-  
-  .our-services {
+}
+
+.our-services {
     width: 200px;
     color: #555555;
-  }
+}
+
 .bottom {
     height: 15vh;
     background-color: #eeeeee;
